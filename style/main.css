@@ -14,13 +14,11 @@
    --logo-font:Raleway,sans-serif;
    --text-font:Roboto ,sans-serif;
 }
-/* скрити елемент  */
+
 
 body{
     font-family:var(--text-font);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--color-of-contact-paragraf);
     background-color: var(--color-hero);
@@ -45,6 +43,7 @@ color: var(--logo-color);
 }
 /* navigation */
 .nav {
+    
     font-weight: 500;
     text-decoration:none;
 }
@@ -52,33 +51,46 @@ ul{
     list-style: none;
 }
 .main-menu{
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     text-decoration:none;
     color: var(--color-of-head-menu);
     
 }
 .main-menu:hover,.main-menu:focus{
+    
     color: var(--link-btn-bc-hover-focus);
     text-decoration:none;
 }
 /* contact us */
 .my-inofo{
+
     color: var(--color-of-contact-paragraf);
     text-decoration: none;
 }
 .my-inofo:hover,.my-inofo:focus{
     color: var(--link-btn-bc-hover-focus);
 }
+.curent{
+    color: var(--btn-bc);
+}
 /* hero paga */
 .hero{
     background-color: var(--color-of-head-menu);
 }
 .hero-head{
+    text-align: center;
+    letter-spacing: 0.02em;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     color: #FFFFFF;
 }
 .hero-button{
+    letter-spacing: 0.04em;
+    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -104,26 +116,40 @@ ul{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-/* h2,h3,p for page */
-h2{
-    color: var(--color-of-head-menu);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-transform: capitalize;
-}
-h3{
-    color: var(--color-of-head-menu);
+/* about-company */
+.about-company>h3{
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--color-of-head-menu);
+}
+.wtat-doing>h2{
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--color-of-head-menu);
+}
+/* team of company */
+.team{
+    background-color: var(--color-hover-focus-btn-footer);
+}
+.team h2{
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--color-of-head-menu);
 }
 /* footer */
-.podval{
+.footer-main{
     background-color: var(--color-of-head-menu);
     color: var(--color-footer-paragraf);
 }
-.podval-web{
+.footer-web{
     font-family: var(--logo-font);
     font-weight: 800;
     font-size: 18px;
@@ -133,16 +159,18 @@ line-height: 1.2;
     text-decoration:none;
     text-transform: uppercase;
 }
-.podval-web:hover,.podval-web:focus{
+.footer-web:hover,.footer-web:focus{
     color: var(--link-btn-bc-hover-focus);
     text-decoration:none;
 }
 /* paga2 btn-menu */
 .btn-menu{
+    cursor: pointer;
     font-weight: 500;
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.04em;
+text-transform: capitalize;
 color: var(--logo-color);
 background-color: var(--btn-color-menu);
 border: 1px solid #E7E9FC;
@@ -151,4 +179,20 @@ border-radius: 4px;
 .btn-menu:hover{
     background-color: var(--link-btn-bc-hover-focus);
     color: var(--btn-color-menu);
+}
+.header-portfolio h3{
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: var(--color-of-head-menu);
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+}
+.header-portfolio p{
+    color: var(--color-of-contact-paragraf);
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 }
