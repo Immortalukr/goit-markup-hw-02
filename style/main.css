@@ -89,6 +89,7 @@ ul{
     color: #FFFFFF;
 }
 .hero-button{
+    font-family: var(--logo-font);
     letter-spacing: 0.04em;
     cursor: pointer;
     font-weight: 500;
@@ -165,6 +166,7 @@ color: var(--color-of-head-menu);
 }
 /* paga2 btn-menu */
 .btn-menu{
+    font-family: var(--logo-font);
     cursor: pointer;
     font-weight: 500;
 font-size: 16px;
